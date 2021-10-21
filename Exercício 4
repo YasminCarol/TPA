@@ -1,0 +1,24 @@
+using System ;
+class Program {
+public static void Main ( string [] args ) {
+int a = 0 , s = 0 ;
+duplo [ , ] numeros = novo duplo [ 5 , 5 ];
+para ( a = 0 ; a < 5 ; a++ ) {
+para ( int n = 0 ; n < 5 ; n ++ ) {
+s ++ ;
+numeros [ a , n ] = z ;
+}
+}
+Console . WriteLine ( $ " Os números que estão na diagonal são: " );
+para ( a= 0 ; a < 5 ; a ++ ) {
+para ( int n = 0 ; n < 5 ; n ++ ) {
+if ( a == n ) {
+Console . WriteLine ( $ " [{ numeros [ a , n ]}] " );
+}
+else if (( a+ n ) == 4 ) {
+Console . WriteLine ( $ " [{ numeros [ a , n ]}] " );
+}
+}
+}
+}
+}
