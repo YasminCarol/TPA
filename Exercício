@@ -1,0 +1,13 @@
+using System;
+class Program { public static void Main (string [] args) {int x;
+int [] numeros = int novo [15];
+para (x = 0; x <15; x ++)
+{ Console. Write ($ "Insira o {x + 1} ° valor:");
+numeros [x] = int. Parse (Console. ReadLine ());
+Console. Limpar (); } Console. Limpar ();Console. WriteLine ("Dentre os números digitados, os pares são:");
+para (x = 0; x <15; x ++) {if (numeros [s]% 2 == 0) 
+{Console. WriteLine (numeros [x]); 
+}  
+} 
+}
+
